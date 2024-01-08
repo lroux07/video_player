@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <video width="500" id="movie">
+      <source src="http://learn.shayhowe.com/assets/misc/courses/html-css/adding-media/earth.mp4" type="video/mp4">
+    </video>
+    
+    <div class="container">
+      <button id="back">-10s</button>
+      <button id="reset">Reset</button>
+      <button id="advance">+10s</button>
+      <input type="range" name="range" id="range" value="0">
+    </div>
+
+    
+    <i class="fa-solid fa-play"></i>
+    
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
